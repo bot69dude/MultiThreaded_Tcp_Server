@@ -72,24 +72,11 @@ java MultiThreaded.Server
 java MultiThreaded.Server 9090
 ```
 
-### 2. Test with Simple Client
-```bash
-# Compile and run the test client
-javac SimpleClient.java
-java SimpleClient
-```
-
-Expected output:
-```
-Connecting to server at localhost:8088
-Sending: Hello from simple client!
-Received: Echo Response #1: Hello from simple client!
-Connection closed successfully
+### 2. Run JMeter Load Test
 ```
 
 ## 📊 Performance Testing
 
-### JMeter Load Testing
 
 #### Setup:
 1. **Install JMeter**: Download from [Apache JMeter](https://jmeter.apache.org/)
