@@ -57,7 +57,7 @@ This project demonstrates a high-performance TCP Echo Server built with Java's V
 - Java 21+ (Virtual Threads support)
 - Apache JMeter 5.6.3+ (for load testing)
 
-### 1. Compile and Run Server
+### Compile and Run Server
 ```bash
 # Navigate to the MultiThreaded directory
 cd MultiThreaded
@@ -71,8 +71,6 @@ java MultiThreaded.Server
 # Or run with custom port
 java MultiThreaded.Server 9090
 ```
-
-### 2. Run JMeter Load Test
 
 
 ## 📊 Performance Testing
